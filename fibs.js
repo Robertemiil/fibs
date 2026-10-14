@@ -1,4 +1,3 @@
-
 const fibs =(n,arr=[])=>{   
  
   if(arr.length===0)arr.push(0);
@@ -8,9 +7,6 @@ const fibs =(n,arr=[])=>{
   if(n>1)fibs(n-1,arr)
   return arr;
 }
-console.log(fibs(8));
-
-
 
 
 
